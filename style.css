@@ -1,23 +1,51 @@
-body{
-    font-family:Zalando Sans Expanded
+body {
+    font-family: "Zalando Sans Expanded", sans-serif;
+    background-color: #fdf6ff;
+    color: #1f1f1f;
+    max-width: 850px;
+    margin: auto;
+    padding: 60px 24px;
 }
-.resume{
-    max-width:60px;
-    img{
-        width:120px;
-        padding: 20px;
-        border-radius:50%;
-    
-    }
+
+.cinfo{
+    color:#6366f1
 }
+
 .section-title {
     cursor: pointer;
-    padding: 10px 0;
+    padding: 12px 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #a855f7;
 }
+
 .resume-section {
-    border-bottom: 1px solid #e0e0e0;
-    padding: 15px 0;
+    border-bottom: 1px solid #e9d5ff;
+    padding: 22px 0;
 }
+
 .section-content {
-    margin-top: 10px;
+    margin-top: 12px;
+    padding-left: 10px;
+    color:#615184;
 }
+
+.heading {
+    p{
+        font-size:2rem;
+        color:#615184
+    }
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+    color: #7c3aed;
+}
+
+a {
+    color: #6366f1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
