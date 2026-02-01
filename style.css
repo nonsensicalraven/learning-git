@@ -2,11 +2,22 @@ body{
     font-family:Zalando Sans Expanded
 }
 .resume{
-    max: width 60px;
+    max-width:60px;
     img{
         width:120px;
         padding: 20px;
         border-radius:50%;
     
     }
+}
+.section-title {
+    cursor: pointer;
+    padding: 10px 0;
+}
+.resume-section {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+.section-content {
+    margin-top: 10px;
 }
